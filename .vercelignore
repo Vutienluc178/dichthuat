@@ -1,0 +1,78 @@
+# Vercel ignore file
+# Exclude unnecessary files from deployment
+
+# Build artifacts
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+*.md
+!README.md
+images/
+更新日志.txt
+
+# Spec files (PyInstaller)
+*.spec
+
+# Icons (not needed for API)
+*.icns
+*.ico
+*.png
+!DocuTranslate.png
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Lock files (Vercel will use requirements.txt)
+uv.lock
+poetry.lock
+
+# Test files
+tests/
+test_*.py
+*_test.py
+
+# Development files
+.env.local
+.env.development
