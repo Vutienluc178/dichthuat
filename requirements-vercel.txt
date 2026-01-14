@@ -1,0 +1,26 @@
+# Requirements for Vercel deployment
+# Core dependencies
+fastapi[standard]>=0.115.12
+mangum>=0.17.0
+uvicorn[standard]>=0.24.0
+
+# Translation dependencies
+jsonpath-ng>=1.7.0
+openpyxl>=3.1.5
+xlsx2html>=0.6.2
+json-repair>=0.48.0
+mammoth>=1.10.0
+srt>=3.5.3
+lxml>=5.4.0
+python-docx>=1.2.0
+beautifulsoup4>=4.13.4
+markdown>=3.8.2
+pymdown-extensions>=10.16.1
+chardet>=5.2.0
+pysubs2>=1.8.0
+httpx>=0.28.1
+python-pptx>=1.0.2
+pypdf>=6.4.2
+
+# Note: docling is optional and large, exclude for Vercel deployment
+# If needed, add: opencv-python>=4.12.0.88, docling>=2.40.0, hf-xet>=1.1.10
